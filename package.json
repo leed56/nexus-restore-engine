@@ -1,0 +1,19 @@
+{
+  "name": "nexus-restore-engine",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "type-check": "tsc -b",
+    "dev:api": "npm --workspace @nexus-restore/api run dev",
+    "dev:worker": "npm --workspace @nexus-restore/worker run dev",
+    "dev:web": "npm --workspace @nexus-restore/web run dev",
+    "lint": "echo \"Add ESLint config in RST-0.4\"",
+    "test": "echo \"Add Vitest test suites in RST-0.4\""
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
