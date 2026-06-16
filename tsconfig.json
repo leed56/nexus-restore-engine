@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/types" },
+    { "path": "packages/security" },
+    { "path": "packages/parsers" },
+    { "path": "packages/adapters" },
+    { "path": "packages/validators" },
+    { "path": "packages/restore-planner" },
+    { "path": "packages/nexus-client" },
+    { "path": "packages/reporting" },
+    { "path": "apps/api" },
+    { "path": "apps/worker" },
+    { "path": "apps/web" }
+  ]
+}
